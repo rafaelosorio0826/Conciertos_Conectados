@@ -1,0 +1,106 @@
+
+@import url(variablesticket.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ticket header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ticket h1 {
+    font-size: 20px;
+}
+
+.more-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.ticket-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ticket-info {
+    padding: 20px;
+}
+
+.ticket-info h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.ticket-info > p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.ticket-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.ticket-details div p:first-child {
+    font-size: 14px;
+    color: #666;
+}
+
+.ticket-details div p:last-child {
+    font-weight: bold;
+}
+
+.barcode {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.barcode-placeholder img {
+    width: 270px;
+    height: 64px;
+}
+
+.barcode p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.ticket-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+
+.ticket-slider {
+    display: flex;
+    gap: 20px;
+}
+
+.ticket-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
+}
+
+
