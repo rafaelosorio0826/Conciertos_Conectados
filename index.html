@@ -7,5 +7,81 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="page home">
+        <header>
+            <button class="menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <button class="notification-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path></svg>
+            </button>
+        </header>
+        
+        <section class="find-section">
+            <h1>Find</h1>
+            <h2>Trending Events</h2>
+            <div class="search-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" placeholder="Search event...">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </button>
+            </div>
+        </section>
+
+        <section class="categories">
+            <button class="active">Music Concert</button>
+            <button>Exhibition</button>
+            <button>Stand Up Show</button>
+            <button>Theatre</button>
+        </section>
+
+        <section class="trending-events">
+            <div class="section-header">
+                <h3>Trending Events</h3>
+                <a href="#" class="see-all">See all</a>
+            </div>
+            <div class="event-card">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Captura%20desde%202025-02-18%2016-17-10-r61lGKVzn3WVcQYwMTWNpux5oqasg6.png" alt="Coldplay Concert">
+                <div class="event-info">
+                    <h4>Coldplay : Music of the Spheres</h4>
+                    <p>Gelora Bung Karno Stadium, Jakarta</p>
+                    <div class="event-details">
+                        <span>November 15 2023</span>
+                        <span>IDR 1.100.000</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="nearby-events">
+            <div class="section-header">
+                <h3>Events Near You</h3>
+                <a href="#" class="see-all">See all</a>
+            </div>
+            <div class="event-grid">
+                <div class="event-card small">
+                    <img src="placeholder.jpg" alt="Muse Concert">
+                    <div class="event-info">
+                        <h4>Muse : Will of the People</h4>
+                        <p>Jakarta, Indonesia</p>
+                        <p>July 23 2023</p>
+                        <p class="price">IDR 500.000</p>
+                    </div>
+                </div>
+                <div class="event-card small">
+                    <img src="placeholder.jpg" alt="One Direction Concert">
+                    <div class="event-info">
+                        <h4>One Direction : Where We Are</h4>
+                        <p>Jakarta, Indonesia</p>
+                        <p>Oct 29 2023</p>
+                        <p class="price">IDR 800.000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
